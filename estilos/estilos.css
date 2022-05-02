@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.botones-inicio {
+    display: flex;
+}
+
+.card-A, .card-B {
+    background-color: #003454;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tarjetas {
+    display: flex;
+    align-self: center;
+    padding: 20px;
+}
+
+.tarjetas h5, p{
+    color: white;
+}
+
+.carousel-caption {
+    height: 65%;
+}
+
+.carousel-inner h1 {
+    font-size: 64px;
+}
+
+.carousel-inner p {
+    font-size: 33px;
+}
+
+.carousel-inner .carousel-item img { 
+    width: 640px; 
+    height: 480px; 
+} 
+
+footer{
+    background-color: #003454;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.modal h1{
+    font-size: 28px;
+    margin: auto;
+    vertical-align: middle;   
+}
+
+.modal-header {
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff5800;
+}
+.contenido{
+    position: absolute !important;
+    z-index: 1;
+}
+.active{
+    z-index: 9;
+}
